@@ -55,7 +55,7 @@ function displayWeather(){
   document.getElementById('city').innerHTML = weather.city;
   document.getElementById('place').innerHTML = weather.temperature.value;
   document.getElementById('temp').innerHTML = weather.feel+"°C";
-  document.getElementById('humidity').innerHTML = air + "&nbsp;Km/hr";
+  document.getElementById('humidity').innerHTML = air + "&nbsp;m/s";
   document.getElementById('pressure').innerHTML = vibe + '<img src="" + icon + "@2x.png">';
   
 
