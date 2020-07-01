@@ -56,9 +56,5 @@ function displayWeather(){
   document.getElementById('place').innerHTML = weather.temperature.value;
   document.getElementById('temp').innerHTML = weather.feel+"°C";
   document.getElementById('humidity').innerHTML = air + "&nbsp;m/s";
-  document.getElementById('pressure').innerHTML = vibe + '<img src="" + icon + "@2x.png">';
-  
-
-  text="Current weather in"+weather.city+ "is"+weather.temperature.value+"Degree celsius"+"But it feels like"+weather.feel+"Degree celsius";
-  responsiveVoice.speak(text);
+  document.getElementById('pressure').innerHTML = vibe ;
 }
