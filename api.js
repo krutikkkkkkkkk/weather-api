@@ -44,7 +44,7 @@ function getWeather(latitude, longitude){
             air = data.wind.speed;  
             vibe = data.weather[0].description;
             icon = data.weather[0].icon;
-            document.getElementById('imageBox').src = 'http://openweathermap.org/img/wn/' + icon + '@2x.png';   
+            document.getElementById('imageBox').src = 'https://openweathermap.org/img/wn/' + icon + '@2x.png';   
         })  
 .then(function(){  
             displayWeather();  
