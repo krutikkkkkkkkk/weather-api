@@ -17,7 +17,7 @@
 	position: absolute;
 	width: 360px;
 	height: 640px;
-	background-color: #225e95eb;
+	background-color: #85b2dfad;
 	overflow: hidden;
 	--web-view-name: Android Mobile – 1;
 	--web-view-id: Android_Mobile__1;
@@ -26,7 +26,7 @@
 }
 #Rectangle_1 {
 	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
+	stroke: #ffffff;
 	stroke-width: 1px;
 	stroke-linejoin: miter;
 	stroke-linecap: butt;
