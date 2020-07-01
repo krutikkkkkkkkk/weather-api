@@ -642,7 +642,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 22px;
-	color: rgba(0,0,0,1);
+	color: #1c70dd;
 }
 #temp {
 	left: 80.5px;
@@ -656,7 +656,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 26px;
-	color: rgba(0,0,0,1);
+	color: #1c70dd;
 }
 #humidity {
 	left: 203px;
