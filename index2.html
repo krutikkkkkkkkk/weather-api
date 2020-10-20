@@ -22,7 +22,7 @@ const key = "89ef8a05b6c964f4cab9e2f97f696c81";
 
 function getWeather(){  
 	var location = document.getElementById("location").value;
-  let api = 'http://api.openweathermap.org/data/2.5/weather?q=' + location + '&appid=89ef8a05b6c964f4cab9e2f97f696c81';  
+  let api = `https://api.openweathermap.org/data/2.5/weather?q=${location}&lon=&appid=89ef8a05b6c964f4cab9e2f97f696c81`;  
       
     fetch(api)  
          .then(function(response){  
