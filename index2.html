@@ -90,7 +90,11 @@ function displayWeather(){
 		</rect>
 	</svg>
 	<svg class="Rectangle_4">
-		<rect id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="286" height="53">
+			<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Enter City Name" id="location">
+  <div class="input-group-append">
+    <input type="button" value="GET" class="btn btn-outline-secondary" type="button" id="button-addon2" style="background-color: red; color: white;" onclick="getWeather()">
+  </div>
 		</rect>
 	</svg>
 	<svg class="Rectangle_5">
@@ -104,14 +108,6 @@ function displayWeather(){
 	<div id="View_Source_on_Github">
 		<span><a href="https://github.com/reboot13-git/weather-api" target="_blank">View Source on Github</a></span>
 	</div>
-	<div id="Location">
-		<div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Enter City Name" id="location">
-  <div class="input-group-append">
-    <input type="button" value="GET" class="btn btn-outline-secondary" type="button" id="button-addon2" style="background-color: red; color: white;" onclick="getWeather()">
-  </div>
-</div>
-
 	</div>
 	<div id="C">
 		<span>°C</span>
