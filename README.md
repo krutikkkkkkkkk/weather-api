@@ -15,7 +15,11 @@ Responsive Voice
 Current weather status,(Temperature, Temperature feels like, Wind speed, Weather status)
 
 
-### Links
+### Reboot13
 [Telegram Reboot13](https://t.me/reboot13)
-[Twitter krutik013](https://twitter.com/krutik013)
-[Instagram krutik013](https://instagram.com/krutik013)
+
+[Twitter -reboot13_dev](https://twitter.com/reboot13_dev)
+
+[Instagram -reboot13_dev](https://instagram.com/reboot13_dev)
+
+[Youtube - Krutik Raut](https://youtube.com/krutikraut)
