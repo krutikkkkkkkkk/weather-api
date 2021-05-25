@@ -1,0 +1,141 @@
+:root {
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #222222;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    color: aliceblue;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font);
+}
+.container *  {
+    padding: .1em;
+}
+.date {
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: .8em;
+    padding-bottom: 2.5em;
+}
+.city {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--font);
+    padding-bottom: 1rem;
+}
+.temp {
+    font-family: var(--font);
+    font-size: 4.2rem;
+}
+sup {
+    font-size: 1.5rem;
+    position: absolute;
+}
+.icon {
+display: flex;
+justify-content: center;
+justify-items: center;
+padding: 1.2rem;
+border-radius: 50px;
+background: #222222;
+box-shadow:   12px 12px 27px #1a1a1a,
+             -12px -12px 27px #2a2a2a;
+position: relative;
+left: 20px;
+}
+input {
+    height: 2em;
+    width: auto;
+    margin-top: 2em;
+    border: none;
+    padding: .8em;
+    background-color: #222222;
+    margin-bottom: -.8em;
+    border-radius: .2em;
+    box-shadow:   6px 6px 6px #1a1a1a,
+             -6px -6px 6px #2a2a2a;
+    color: aliceblue;
+    width: 11rem;
+}
+input[type="submit"] {
+    width: 11rem;
+    height: 2.5em;
+    background-color: #222222;
+    box-shadow:  6px 6px 6px #1a1a1a,
+             -6px -6px 6px #2a2a2a;
+    color: #fff;
+}
+input::placeholder {
+    color: #fff;
+
+}
+input [type= "text"] {
+    padding-left: 5px;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.status {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 1em;
+}
+.secondary {
+    display: flex;
+    height: 5rem;
+    width: 12rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    box-shadow:  6px 6px 6px #1a1a1a,
+    -6px -6px 6px #2a2a2a;
+    color: #fff;
+    flex-direction: row;
+    padding: .5em;
+    font-size: 1rem;
+}
+.windSpeed {
+    border-left:  2px solid #fff;
+    padding-left: .8em;
+}
+#feelsLike, #windSpeed {
+    font-size: 1.3rem;
+    position: relative;
+} 
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+@media only screen 
+   and (min-width : 600px) {
+    .weather {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .inputs {
+     padding-top: .3em;
+     padding-left: 5em;
+     
+    }
+    .secondary {
+        margin-top: 3em;
+    }
+    input, input[type="submit"] {
+        height: 3em;
+        width: 15em;
+    }
+    .temp {
+        font-size: 6rem;
+    }  
+}
