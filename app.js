@@ -2,10 +2,10 @@ const apiKey = "89ef8a05b6c964f4cab9e2f97f696c81";
 const KELVIN = 273; 
 
 let d = new Date();
-let date = d.getDate()
+let date = d.getDate();
 let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 let month = months[d.getMonth()];
-let year = d.getFullYear()
+let year = d.getFullYear();
 document.getElementById('date').innerHTML = date + " "+ month + " " + year;
 
 
@@ -19,7 +19,7 @@ function setPosition(position){
     let latitude = position.coords.latitude;  
     let longitude = position.coords.longitude;  
       
-    checkWeather(latitude, longitude)  
+    checkWeather(latitude, longitude) 
 }  
 
 function checkWeather(latitude, longitude) {
